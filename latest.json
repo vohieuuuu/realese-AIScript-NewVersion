@@ -1,8 +1,8 @@
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "required": false,
-  "title": "Ban cap nhat 2.0.0",
-  "summary": "Them Update Center, resume/retry download va helper cai dat tu dong.",
+  "title": "Ban cap nhat 2.0.1",
+  "summary": "Ban test de app hien thong bao update tu dong.",
   "notes": [
     "Them Script Menu cho Video Review",
     "Sua icon taskbar va app identity",
@@ -10,7 +10,7 @@
     "Chan cai dat khi app dang co tac vu dang chay",
     "Ho tro helper shutdown app, copy patch va mo lai"
   ],
-  "published_at": "2026-04-03T12:20:00+07:00",
+  "published_at": "2026-04-03T12:35:00+07:00",
   "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.0-patch.zip",
   "sha256": "f4e04bb14ca06fda9079c1a8e993661bc7c4953f825dc6ee36c7bbac101cfc0a"
 }
