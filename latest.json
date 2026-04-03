@@ -1,16 +1,18 @@
 {
-  "version": "2.0.1",
+  "version": "2.0.2",
   "required": false,
-  "title": "Bản cập nhật 2.0.1",
-  "summary": "Bổ sung trung tâm cập nhật và cải thiện trải nghiệm nhắc cập nhật trong app.",
+  "title": "Bản cập nhật 2.0.2",
+  "summary": "Sửa lỗi cài đặt xong nhưng app không tự mở lại, đồng bộ version hiệu lực sau patch update.",
   "notes": [
     "Thêm Script Menu cho Video Review",
     "Sửa icon taskbar và app identity",
     "Thêm Update Center có changelog, tiến độ tải và tải lại",
     "Chặn cài đặt khi app đang có tác vụ chạy",
-    "Hỗ trợ helper tự đóng app, áp dụng bản cập nhật và mở lại"
+    "Hỗ trợ helper tự đóng app, áp dụng bản cập nhật và mở lại",
+    "Sửa lỗi helper khởi động lại app sau khi cài đặt",
+    "Ngăn trường hợp đã cập nhật xong nhưng app vẫn tiếp tục báo có bản mới"
   ],
-  "published_at": "2026-04-03T12:35:00+07:00",
-  "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.0-patch.zip",
-  "sha256": "f4e04bb14ca06fda9079c1a8e993661bc7c4953f825dc6ee36c7bbac101cfc0a"
+  "published_at": "2026-04-03T13:25:00+07:00",
+  "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.2-patch.zip",
+  "sha256": "5aa0854d3b577e6d6371683e167c1077a2713fe42b1115d266dd2b1c21756bee"
 }
