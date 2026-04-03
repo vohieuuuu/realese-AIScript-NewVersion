@@ -1,20 +1,14 @@
 {
-  "version": "2.0.8",
+  "version": "2.0.9",
   "required": false,
-  "title": "Bản cập nhật 2.0.8",
-  "summary": "Sửa nút quay về danh sách trong editor và đóng gói lại bản vá mới nhất.",
+  "title": "Bản cập nhật 2.0.9",
+  "summary": "Thêm cơ chế khôi phục task YeScale cho Storyboard để hạn chế tạo trùng ảnh khi app bị tắt giữa chừng.",
   "notes": [
-    "Thêm Script Menu cho Video Review",
-    "Sửa icon taskbar và app identity",
-    "Thêm Update Center có changelog, tiến độ tải và tải lại",
-    "Chặn cài đặt khi app đang có tác vụ chạy",
-    "Hỗ trợ helper tự đóng app, áp dụng bản cập nhật và mở lại",
-    "Ghi update-state bằng UTF-8 không BOM từ helper",
-    "Strip BOM khi app đọc update-state để giữ đúng effective version sau khi khởi động lại",
-    "Sửa callback nút Quay về danh sách để luôn bấm được trong editor",
-    "Đóng gói lại patch mới nhất để phát hành ổn định hơn"
+    "Storyboard lưu taskId theo project và scene để app có thể poll lại task cũ sau khi mở lại.",
+    "Tự resume các task storyboard đang pending hoặc đã complete trên server nhưng chưa kịp đồng bộ vào project.",
+    "Đồng bộ task storyboard khi thêm, xóa, kéo-thả shot và clear task cũ khi user upload hoặc xóa ảnh tay."
   ],
-  "published_at": "2026-04-03T14:56:00+07:00",
-  "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.8-patch.zip",
-  "sha256": "535543fe672ebcf6d27b3d4632107505813de5252e32c87e8431dc8e86f0fb79"
+  "published_at": "2026-04-03T16:43:00+07:00",
+  "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.9-patch.zip",
+  "sha256": "8ce7e974a8063fe7d7e2d0b52e88530775f966707b5b64c38b26b05ec6e4965e"
 }
