@@ -1,18 +1,18 @@
 {
-  "version": "2.0.5",
+  "version": "2.0.6",
   "required": false,
-  "title": "Bản cập nhật 2.0.5",
-  "summary": "Sửa launcher helper theo kiểu Start-Process với chuỗi tham số đầy đủ để tránh chết khi truyền mảng args.",
+  "title": "Bản cập nhật 2.0.6",
+  "summary": "Sửa lỗi đọc update-state có BOM khiến app khởi động lại xong vẫn quay về 2.0.0 và tiếp tục báo còn bản mới.",
   "notes": [
     "Thêm Script Menu cho Video Review",
     "Sửa icon taskbar và app identity",
     "Thêm Update Center có changelog, tiến độ tải và tải lại",
     "Chặn cài đặt khi app đang có tác vụ chạy",
     "Hỗ trợ helper tự đóng app, áp dụng bản cập nhật và mở lại",
-    "Đổi launcher helper sang Start-Process với ArgumentList dạng string đã kiểm chứng chạy được",
-    "Ngăn trường hợp đã cập nhật xong nhưng app vẫn tiếp tục báo có bản mới"
+    "Ghi update-state bằng UTF-8 không BOM từ helper",
+    "Strip BOM khi app đọc update-state để giữ đúng effective version sau khi khởi động lại"
   ],
-  "published_at": "2026-04-03T14:07:00+07:00",
-  "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.5-patch.zip",
-  "sha256": "715bb3f28e5622af3009ccea7601a41a931c10ba140b80f2daa63953ab813086"
+  "published_at": "2026-04-03T14:18:00+07:00",
+  "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.6-patch.zip",
+  "sha256": "37145080bf7fc21ce6fcd96229e4b7021367e749a7895d01a5af47384a8c2471"
 }
