@@ -1,18 +1,18 @@
 {
-  "version": "2.0.4",
+  "version": "2.0.5",
   "required": false,
-  "title": "Bản cập nhật 2.0.4",
-  "summary": "Sửa lỗi launcher helper bị chết trước khi kịp chạy cập nhật và mở lại app.",
+  "title": "Bản cập nhật 2.0.5",
+  "summary": "Sửa launcher helper theo kiểu Start-Process với chuỗi tham số đầy đủ để tránh chết khi truyền mảng args.",
   "notes": [
     "Thêm Script Menu cho Video Review",
     "Sửa icon taskbar và app identity",
     "Thêm Update Center có changelog, tiến độ tải và tải lại",
     "Chặn cài đặt khi app đang có tác vụ chạy",
     "Hỗ trợ helper tự đóng app, áp dụng bản cập nhật và mở lại",
-    "Chuyển launcher helper sang dạng synchronous Start-Process để không chết theo app cha",
+    "Đổi launcher helper sang Start-Process với ArgumentList dạng string đã kiểm chứng chạy được",
     "Ngăn trường hợp đã cập nhật xong nhưng app vẫn tiếp tục báo có bản mới"
   ],
-  "published_at": "2026-04-03T13:41:00+07:00",
-  "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.4-patch.zip",
-  "sha256": "23167087815f5ee0e53dace45bebb8167c83fdfd9c77908e4675b869b755be84"
+  "published_at": "2026-04-03T14:07:00+07:00",
+  "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.5-patch.zip",
+  "sha256": "715bb3f28e5622af3009ccea7601a41a931c10ba140b80f2daa63953ab813086"
 }
