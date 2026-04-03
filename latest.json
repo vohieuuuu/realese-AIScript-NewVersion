@@ -1,14 +1,14 @@
 {
   "version": "2.0.1",
   "required": false,
-  "title": "Ban cap nhat 2.0.1",
-  "summary": "Ban test de app hien thong bao update tu dong.",
+  "title": "Bản cập nhật 2.0.1",
+  "summary": "Bổ sung trung tâm cập nhật và cải thiện trải nghiệm nhắc cập nhật trong app.",
   "notes": [
-    "Them Script Menu cho Video Review",
-    "Sua icon taskbar va app identity",
-    "Them Update Center co changelog, progress download va retry",
-    "Chan cai dat khi app dang co tac vu dang chay",
-    "Ho tro helper shutdown app, copy patch va mo lai"
+    "Thêm Script Menu cho Video Review",
+    "Sửa icon taskbar và app identity",
+    "Thêm Update Center có changelog, tiến độ tải và tải lại",
+    "Chặn cài đặt khi app đang có tác vụ chạy",
+    "Hỗ trợ helper tự đóng app, áp dụng bản cập nhật và mở lại"
   ],
   "published_at": "2026-04-03T12:35:00+07:00",
   "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.0-patch.zip",
