@@ -1,18 +1,18 @@
 {
-  "version": "2.0.3",
+  "version": "2.0.4",
   "required": false,
-  "title": "Bản cập nhật 2.0.3",
-  "summary": "Sửa lỗi helper cập nhật không chạy tới bước mở lại app sau khi cài đặt patch.",
+  "title": "Bản cập nhật 2.0.4",
+  "summary": "Sửa lỗi launcher helper bị chết trước khi kịp chạy cập nhật và mở lại app.",
   "notes": [
     "Thêm Script Menu cho Video Review",
     "Sửa icon taskbar và app identity",
     "Thêm Update Center có changelog, tiến độ tải và tải lại",
     "Chặn cài đặt khi app đang có tác vụ chạy",
     "Hỗ trợ helper tự đóng app, áp dụng bản cập nhật và mở lại",
-    "Sửa lỗi helper PowerShell không ghi được log và không chạy tiếp khi cài đặt",
+    "Chuyển launcher helper sang dạng synchronous Start-Process để không chết theo app cha",
     "Ngăn trường hợp đã cập nhật xong nhưng app vẫn tiếp tục báo có bản mới"
   ],
-  "published_at": "2026-04-03T13:32:00+07:00",
-  "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.3-patch.zip",
-  "sha256": "4542aa5d77a22cedbbfc2087c659858bb1efa89d75493f1392106e8f0636572c"
+  "published_at": "2026-04-03T13:41:00+07:00",
+  "url": "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.4-patch.zip",
+  "sha256": "23167087815f5ee0e53dace45bebb8167c83fdfd9c77908e4675b869b755be84"
 }
