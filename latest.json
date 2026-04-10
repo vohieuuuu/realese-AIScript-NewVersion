@@ -1,14 +1,14 @@
 {
-    "version":  "2.0.12",
+    "version":  "2.0.13",
     "required":  false,
-    "title":  "Bản cập nhật 2.0.12",
-    "summary":  "Provider AI chạy theo chế độ global: chọn Google AI Studio hoặc YeScale thì toàn bộ text và image dùng đúng key của provider đó.",
+    "title":  "Bản cập nhật 2.0.13",
+    "summary":  "AI Settings hiển thị key theo provider đang chọn: Google chỉ hiện key Google, YeScale chỉ hiện key YeScale.",
     "notes":  [
-                  "Thêm chọn provider global trong AI Settings (YeScale/Google AI Studio).",
-                  "Router AI mới: toàn bộ luồng text + image + storyboard task dùng provider active.",
-                  "Bổ sung key theo provider và đồng bộ popup nhập key theo provider hiện tại."
+                  "Sửa UI AI Engine Settings: chỉ hiển thị 1 ô API key theo provider active.",
+                  "Đổi provider realtime sẽ đổi field key tương ứng ngay trong modal.",
+                  "Lưu key đúng theo provider đã chọn, không hiển thị lẫn key provider khác."
               ],
-    "published_at":  "2026-04-10T11:36:21+07:00",
-    "url":  "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.12-patch.zip",
-    "sha256":  "b3ce2ca02740ad4375d938a03377da7a7dfde83fa9d7df95e023ceb8b582e767"
+    "published_at":  "2026-04-10T11:42:55+07:00",
+    "url":  "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.13-patch.zip",
+    "sha256":  "3fe1acfaf388b87e37f470dd1d14e921bd7e12466b687b7a5ed0d081a83a4990"
 }
