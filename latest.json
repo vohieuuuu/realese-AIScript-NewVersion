@@ -1,14 +1,14 @@
 {
-    "version":  "2.0.11",
+    "version":  "2.0.12",
     "required":  false,
-    "title":  "Bản cập nhật 2.0.11",
-    "summary":  "Sửa hiển thị sidebar theo active flow: Script đứng trước World Builder và trạng thái mở khóa theo đúng thứ tự luồng.",
+    "title":  "Bản cập nhật 2.0.12",
+    "summary":  "Provider AI chạy theo chế độ global: chọn Google AI Studio hoặc YeScale thì toàn bộ text và image dùng đúng key của provider đó.",
     "notes":  [
-                  "Sắp xếp section và module theo active flow thay vì theo ID step tĩnh.",
-                  "Sửa logic khóa/mở module trong sidebar theo index của flow active (không còn lệch khi Script 6 đứng trước World 5).",
-                  "Sửa __goToStep để điều hướng theo active flow, tránh cảm giác menu chưa đổi."
+                  "Thêm chọn provider global trong AI Settings (YeScale/Google AI Studio).",
+                  "Router AI mới: toàn bộ luồng text + image + storyboard task dùng provider active.",
+                  "Bổ sung key theo provider và đồng bộ popup nhập key theo provider hiện tại."
               ],
-    "published_at":  "2026-04-10T10:53:02+07:00",
-    "url":  "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.11-patch.zip",
-    "sha256":  "f17aab3e897c5fe0b6559731ff551f59277afc5cd5c459a2fee065c4392c574f"
+    "published_at":  "2026-04-10T11:36:21+07:00",
+    "url":  "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.12-patch.zip",
+    "sha256":  "b3ce2ca02740ad4375d938a03377da7a7dfde83fa9d7df95e023ceb8b582e767"
 }
