@@ -1,14 +1,14 @@
 {
-    "version":  "2.0.10",
+    "version":  "2.0.11",
     "required":  false,
-    "title":  "Bản cập nhật 2.0.10",
-    "summary":  "Sửa luồng production để Script chạy trước World Builder, đồng bộ lưu trạng thái và ổn định chuyển bước.",
+    "title":  "Bản cập nhật 2.0.11",
+    "summary":  "Sửa hiển thị sidebar theo active flow: Script đứng trước World Builder và trạng thái mở khóa theo đúng thứ tự luồng.",
     "notes":  [
-                  "Đổi active flow để Script Builder (step 6) luôn chạy trước World Builder (step 5) khi cùng bật.",
-                  "Thêm điều hướng theo active flow để tránh kẹt bước khi khóa Script/World Specs.",
-                  "Sửa đồng bộ dữ liệu production: additional script prompt, tutorial steps, props và project DNA khi lưu/khôi phục project."
+                  "Sắp xếp section và module theo active flow thay vì theo ID step tĩnh.",
+                  "Sửa logic khóa/mở module trong sidebar theo index của flow active (không còn lệch khi Script 6 đứng trước World 5).",
+                  "Sửa __goToStep để điều hướng theo active flow, tránh cảm giác menu chưa đổi."
               ],
-    "published_at":  "2026-04-10T10:46:00+07:00",
-    "url":  "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.10-patch.zip",
-    "sha256":  "87d44380dc4267774483dd5a19a0c23ecae048ae6e25050a3e4a65a3d9bf600e"
+    "published_at":  "2026-04-10T10:53:02+07:00",
+    "url":  "https://raw.githubusercontent.com/vohieuuuu/realese-AIScript-NewVersion/main/releases/AIScript-2.0.11-patch.zip",
+    "sha256":  "f17aab3e897c5fe0b6559731ff551f59277afc5cd5c459a2fee065c4392c574f"
 }
